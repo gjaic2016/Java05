@@ -1,0 +1,52 @@
+//    public static Student unosStudenta(Scanner scanner) {
+//        Student stud = new Student(null, null, 0, null);
+//
+//        System.out.println("NOVI STUDENT....");
+//
+//        System.out.print("Unesite ime studenta: ");
+//        String ime = scanner.next();
+//        stud.setIme(ime);
+//
+//        System.out.print("Unesite prezima studenta: ");
+//        String prezime = scanner.next();
+//        stud.setPrezime(prezime);
+//
+//        System.out.print("Unesite godinu studija studenta: ");
+//        int godStudija = scanner.nextInt();
+//        scanner.nextLine();
+//        stud.setGodinaStudija(godStudija);
+//
+//        System.out.print("Unesite broj indexa studenta: ");
+//        String brIndexa = scanner.next();
+//        stud.setBrojIndexa(brIndexa);
+//
+//        return stud;
+//    }
+
+}
+
+//                    ISPIS STUDENATA
+//                    if(!evidencija.getListaStudenata().isEmpty()) {
+//                        System.out.println("Popis svih studenata: ");
+//                        for (Student jedanStudent : evidencija.getListaStudenata()) {
+//                            System.out.println(jedanStudent.getIme() + " " + jedanStudent.getPrezime());
+//                        }
+//                    }
+
+//                    if (!studenti.isEmpty()) {
+//                        System.out.println("Popis svih studenata: ");
+//                        for (Student jedanStudent : studenti) {
+//                            System.out.println(jedanStudent.getIme() + " " + jedanStudent.getPrezime());
+//                        }
+//                    } else {
+//                        System.out.println("Lista studenata je prazna.");
+//                    }
+
+
+//                    PRETRAGA STUDENTA
+//                    for (Student jedanStudent : studenti) {
+//                        if (brojTrazenogIndexa.equals(jedanStudent.getBrojIndexa())) {
+//                            System.out.println("Student pronađen: " + jedanStudent.getIme() + " " + jedanStudent.getPrezime());
+//
+//                        }
+//                    }
